@@ -25,7 +25,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-👉 (add your Netlify link here later)
+👉 isilc-hub.netlify.app
 
 ## 📸 Screenshots
 
