@@ -1,0 +1,40 @@
+export const PROFILE = {
+  name: 'Zighed Imen',
+  bio: "Étudiante en informatique, 20 ans, motivée, curieuse et capable de m'adapter à différents domaines professionnels. Grâce à mes compétences en développement web et mes capacités d'apprentissage rapide, je suis ouverte à toute opportunité. Sérieuse, organisée et toujours prête à relever de nouveaux défis.",
+  location: 'Bab Ezzouar, Cité Rabia Tahar',
+  linkedin: 'https://www.linkedin.com/in/zighed-imen-2589b31bb/',
+  roleCycle: [
+    '// Graphic Designer & Frontend Developer',
+    '// React · HTML · CSS · JavaScript',
+    '// ISIL Bab Ezzouar · Freelance 2023+',
+  ],
+  tags: [
+    { label: '🌐 Frontend Dev', bg: 'rgba(236,72,153,0.15)', color: '#f9a8d4' },
+    { label: '⚛️ React', bg: 'rgba(97,114,243,0.15)', color: '#a5bbfc' },
+    { label: '🎨 Graphic Design', bg: 'rgba(245,158,11,0.15)', color: '#fcd34d' },
+    { label: '🔧 Figma & Photoshop', bg: 'rgba(16,185,129,0.15)', color: '#6ee7b7' },
+    { label: '🐙 Git & GitHub', bg: 'rgba(6,182,212,0.15)', color: '#67e8f9' },
+    { label: '💼 Freelance depuis 2023', bg: 'rgba(139,92,246,0.15)', color: '#c4b5fd' },
+  ],
+  skills: [
+    { name: 'HTML5 / CSS3', pct: 90, gradient: 'linear-gradient(90deg,#ec4899,#f43f5e)' },
+    { name: 'JavaScript', pct: 80, gradient: 'linear-gradient(90deg,#f59e0b,#fbbf24)' },
+    { name: 'React.js', pct: 75, gradient: 'linear-gradient(90deg,#06b6d4,#67e8f9)' },
+    { name: 'Bootstrap/Sass', pct: 80, gradient: 'linear-gradient(90deg,#8b5cf6,#c4b5fd)' },
+    { name: 'jQuery', pct: 70, gradient: 'linear-gradient(90deg,#6172f3,#a5bbfc)' },
+    { name: 'Figma / PS', pct: 85, gradient: 'linear-gradient(90deg,#10b981,#34d399)' },
+  ],
+  timeline: [
+    { year: '2024 – 2027 · En cours', title: "Licence ISIL – Ingénierie des Systèmes d'Information et des Logiciels", sub: 'ISIL, Bab Ezzouar · Diplôme prévu 2026/2027', color: '#6172f3' },
+    { year: 'Depuis 2023', title: 'Création de projets web — Freelance', sub: 'GitHub Finder, Shopping Cart, Weather App, React Hooks Site...', color: '#ec4899' },
+    { year: '2022', title: 'Réceptionniste', sub: 'ID PARK Centre Commercial · Bab Ezzouar', color: '#10b981' },
+    { year: 'Langues', title: '🇩🇿 Arabe · 🇬🇧 Anglais · 🇫🇷 Français', sub: '', color: '#f59e0b' },
+  ],
+  projects: [
+    { icon: '🔍', title: 'GitHub Finder', desc: 'App HTML/JS pour rechercher et afficher des profils GitHub.', techs: [{ label: 'JavaScript', bg: 'rgba(245,158,11,0.15)', color: '#fcd34d' }, { label: 'HTML', bg: 'rgba(236,72,153,0.15)', color: '#f9a8d4' }] },
+    { icon: '🛒', title: 'Shopping Cart', desc: 'App dynamique JS : ajout, suppression et calcul de panier.', techs: [{ label: 'JavaScript', bg: 'rgba(245,158,11,0.15)', color: '#fcd34d' }] },
+    { icon: '⚛️', title: 'Hooks-Based Site', desc: 'App React avec Hooks, gestion d\'état et interaction utilisateur.', techs: [{ label: 'React', bg: 'rgba(6,182,212,0.15)', color: '#67e8f9' }] },
+    { icon: '📤', title: 'Image Upload', desc: 'Téléversement d\'images sécurisé avec authentification.', techs: [{ label: 'React', bg: 'rgba(6,182,212,0.15)', color: '#67e8f9' }] },
+    { icon: '🌤️', title: 'Weather App', desc: 'App météo React avec géolocalisation automatique.', techs: [{ label: 'React', bg: 'rgba(6,182,212,0.15)', color: '#67e8f9' }, { label: 'API', bg: 'rgba(97,114,243,0.15)', color: '#a5bbfc' }] },
+  ],
+}

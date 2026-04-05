@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    @apply bg-bg text-text;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+  }
+}
+
+@layer utilities {
+  .anim-d1 { animation-delay: 0.05s !important; }
+  .anim-d2 { animation-delay: 0.12s !important; }
+  .anim-d3 { animation-delay: 0.19s !important; }
+  .anim-d4 { animation-delay: 0.26s !important; }
+  .anim-d5 { animation-delay: 0.33s !important; }
+  .anim-d6 { animation-delay: 0.40s !important; }
+  .anim-d7 { animation-delay: 0.47s !important; }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #6172f3, #a5bbfc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #1a2030;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #1e2536;
+    border-radius: 999px;
+  }
+}
